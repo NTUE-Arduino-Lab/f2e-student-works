@@ -29,10 +29,10 @@ function WorkItem({ data, school, categroy }) {
           : null}
       </div>
       <div className={styles.linklist}>
-        <a href={data.githubUrl} target="_blank">
+        <a href={data.pptUrl} target="_blank">
           <Ppt />
         </a>
-        <a href={data.pptUrl} target="_blank">
+        <a href={data.githubUrl} target="_blank">
           <Github />
         </a>
       </div>

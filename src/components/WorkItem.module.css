@@ -1,0 +1,132 @@
+.workitem {
+  font-family: "Noto Sans TC", sans-serif;
+  display: grid;
+  grid-template-columns: auto 120px;
+}
+
+.workitem_ntue {
+  color: #202020;
+}
+
+.workitem_ntut {
+  color: white;
+}
+
+.link_website {
+  display: block;
+  width: 360px;
+  height: 270px;
+  grid-column-start: span 2;
+}
+
+.link_website img {
+  width: 100%;
+  height: 100%;
+}
+
+.workitem h3 {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  grid-column-start: span 2;
+}
+
+.skilllist {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: max-content;
+  grid-gap: 6px;
+  align-items: center;
+}
+
+.skilllist span {
+  padding: 5px 12px;
+  background-color: #c4c4c4;
+  border-radius: 50px;
+  display: inline-block;
+  text-align: center;
+  width: max-content;
+  min-width: 30px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+.linklist {
+  display: grid;
+  grid-gap: 9px;
+  grid-template-columns: repeat(2, max-content);
+  align-items: center;
+  justify-content: end;
+}
+
+.workitem_ntue .linklist a {
+  display: flex;
+  align-items: center;
+}
+
+.workitem_ntue .linklist a svg {
+  color: #202020;
+}
+
+.workitem_ntue .linklist a:hover svg {
+  color: #5b5b5b;
+}
+
+.workitem_ntue .linklist a:active svg {
+  color: #6768ab;
+}
+
+.workitem_ntut .linklist a svg {
+  color: white;
+}
+
+.workitem_ntut .linklist a:hover svg {
+  color: #b8b8b8;
+}
+
+.workitem_ntut .linklist a:active svg {
+  color: #b7bcf7;
+}
+
+.line{
+  grid-column-start: span 2;
+  width: 100%;
+  height: 0.5px;
+  margin: 11px 0 13px;
+}
+
+.workitem_ntue .line {
+  background-color: #727272;
+}
+
+.workitem_ntut .line {
+  background-color: #f2f2f2;
+}
+
+.namelist{
+  display: flex;
+  align-items: center;
+}
+
+.namelist span{
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.namelist span:first-child{
+  margin-right: 9px;
+}
+
+.workitem_ntue .namelist span {
+  color: #202020;
+}
+
+.categroy {
+  font-size: 14px;
+  color: #c4c4c4;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+}

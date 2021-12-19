@@ -1,0 +1,26 @@
+{
+  "name": "front-end-class-works",
+  "homepage": "https://peiyunlee.github.io/f2e-student-works/",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@honkhonk/vite-plugin-svgr": "^1.1.0",
+    "@lottiefiles/lottie-player": "^1.5.3",
+    "axios": "^0.24.0",
+    "history": "^5.1.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-router-dom": "^6.0.2",
+    "react-select": "^5.2.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^1.0.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.4",
+    "vite": "^2.6.4"
+  }
+}

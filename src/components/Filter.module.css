@@ -1,0 +1,104 @@
+.filter {
+  top: 50%;
+  transform: translateY(-50%);
+  position: fixed;
+  background-color: white;
+  width: 540px;
+  height: 360px;
+  border-radius: 15px;
+  z-index: 10;
+  filter: drop-shadow(0px 4px 6px rgba(103, 104, 171, 0.15));
+  padding: 30px 60px;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  height: 100%;
+  display: grid;
+  grid-template-rows: max-content max-content auto max-content;
+  align-items: start;
+}
+
+.btn_cancel {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+}
+
+.skilllist {
+  display: grid;
+  grid-template-columns: repeat(4, max-content);
+  grid-gap: 16px;
+  justify-content: center;
+}
+
+.title {
+  color: #6768ab;
+  font-size: 18px;
+  letter-spacing: 4.5px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.line {
+  background-color: #c4c4c4;
+  height: 0.5px;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.skilllist a {
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 50px;
+  border: 1px solid #202020;
+  width: max-content;
+  display: block;
+  cursor: pointer;
+  color: #202020;
+}
+
+.skilllist a:hover {
+  border: 1px solid #b7bcf7;
+  background-color: #b7bcf7;
+  color: white;
+}
+
+.skilllist .btn_skill_active {
+  border: 1px solid #6768ab;
+  background-color: #6768ab;
+  color: white;
+}
+
+.btnlist {
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  grid-gap: 16px;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.btnlist a {
+  display: block;
+  font-family: "Noto Sans TC", sans-serif;
+  padding: 12px 56px;
+  font-size: 16px;
+  letter-spacing: 2.5px;
+  border-radius: 50px;
+  width: max-content;
+  border: 1px solid #202020;
+  color: #202020;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.btnlist a:nth-child(2) {
+  background-color: #b7bcf7;
+}
+
+.btnlist a:hover,
+.btnlist a:active {
+  background-color: #6768ab;
+  color: white;
+}

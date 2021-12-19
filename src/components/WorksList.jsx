@@ -8,6 +8,7 @@ function WorksList({ works, school, selected_categroy }) {
 
   useEffect(() => {
     setworks(works);
+    setpage(1);
   }, [works]);
 
   const _renderPageBtn = () => {

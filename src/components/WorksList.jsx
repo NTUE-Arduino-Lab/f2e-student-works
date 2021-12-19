@@ -1,9 +1,14 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import WorkItem from "../components/WorkItem";
 import styles from "../pages/Works.module.css";
 
 function WorksList({ works, school, selected_categroy }) {
   const [page, setpage] = useState(1);
+  const [_works, setworks] = useState(works);
+
+  useEffect(() => {
+    setworks(works);
+  }, [works]);
 
   const _renderPageBtn = () => {
     let list = [];
@@ -30,10 +35,10 @@ function WorksList({ works, school, selected_categroy }) {
 
   return (
     <section className={styles.section}>
-      {works.length > 0 ? (
+      {_works.length > 0 ? (
         <>
           <div className={styles.workslist}>
-            {works
+            {_works
               .slice(0 + (page - 1) * 12, 12 + (page - 1) * 12)
               .map((ele, idx) => (
                 <WorkItem
@@ -48,12 +53,10 @@ function WorksList({ works, school, selected_categroy }) {
             {_renderPageBtn()}
             <a
               className={`${
-                page >= works.length / 12 ? styles.a_disable : ""
+                page >= _works.length / 12 ? styles.a_disable : ""
               }`}
               onClick={
-                page < works.length / 12
-                  ? () => _clickPageBtn(page + 1)
-                  : null
+                page < _works.length / 12 ? () => _clickPageBtn(page + 1) : null
               }
             >
               Next

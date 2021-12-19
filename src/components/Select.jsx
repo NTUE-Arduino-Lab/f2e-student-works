@@ -18,11 +18,15 @@ const optionStyles = {
     letterSpacing: "2.5px",
     border: isFocused ? "0.5px solid black" : undefined,
     cursor: "pointer",
-    padding: "8px 20px",
+    height: "36px",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
   }),
   menu: (styles) => ({
     ...styles,
     borderRadius: "0",
+    transform: "translateX(-25%)",
   }),
   menuList: (styles) => ({
     ...styles,

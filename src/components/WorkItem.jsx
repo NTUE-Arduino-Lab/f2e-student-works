@@ -1,6 +1,7 @@
 import styles from "./WorkItem.module.css";
 import Github from "../assets/images/github.svg?component";
 import Ppt from "../assets/images/ppt.svg?component";
+import img_404 from "../assets/images/404.png";
 
 function WorkItem({ data, school, categroy }) {
   const year_text = categroy.split("-");
@@ -12,10 +13,11 @@ function WorkItem({ data, school, categroy }) {
       }`}
     >
       <a href={data.websiteUrl} className={styles.link_website} target="_blank">
-        {data.imgUrl.slice(-4) === ".png" ? (
+        <div className={styles.mask}></div>
+        {data.imgUrl.slice(-4) === ".png" || data.imgUrl.slice(-4) === ".jpg" ? (
           <img src={data.imgUrl} alt="" />
         ) : (
-          <img src="https://i.imgur.com/lONYgOx.png" alt="" />
+          <img src={img_404} alt="" />
         )}
       </a>
       <h3>{data.workName}</h3>

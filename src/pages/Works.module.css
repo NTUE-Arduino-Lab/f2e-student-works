@@ -5,28 +5,27 @@
 }
 
 .works_ntue {
-  background-color: white;
+  background-color: #fff;
   color: #202020;
-  animation: bg_black_to_white 0.75s ease-in-out;
+  animation: opacity 0.32s cubic-bezier(0.42, 0, 0.58, 1)
 }
 
 .works_ntut {
   background-color: #131313;
   color: white;
-  animation: bg_black_to_white 0.75s ease-in-out reverse;
+  animation: opacity 0.2s cubic-bezier(0.42, 0, 0.58, 1)
 }
 
 .cotent_wrapper {
-  position: relative;
-  margin: 0 auto;
   width: 100%;
   max-width: 1440px;
   padding: 0 120px;
   box-sizing: border-box;
+  position: relative;
 }
 
 .header {
-  height: 534px;
+  height: 500px;
   display: grid;
   grid-template-columns: 1fr max-content 1fr;
   margin-bottom: 40px;
@@ -90,12 +89,18 @@ header a {
 
 .search_bar {
   display: grid;
-  grid-template-columns: repeat(2, max-content);
-  grid-gap: 30px;
+  grid-template-columns: repeat(2, 85px);
+  justify-items: center;
+  grid-gap: 5px;
+}
+
+.search_bar li {
+  width: 85px;
 }
 
 .search_bar .categroy {
   height: 100%;
+  width: 100%;
   position: relative;
   display: flex;
   align-items: center;
@@ -109,6 +114,7 @@ header a {
 .search_bar .categroy select {
   z-index: 1;
   height: 100%;
+  width: 100%;
   opacity: 0;
   cursor: pointer;
 }
@@ -119,6 +125,15 @@ header a {
   }
   100% {
     background-color: white;
+  }
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 

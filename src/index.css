@@ -1,11 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Elsie:wght@900&family=Libre+Barcode+128+Text&family=Noto+Sans+TC:wght@300;400;500;700;900&family=Roboto:wght@300;400;900&display=swap");
 
+html {
+  width: 100%;
+  position: relative;
+}
+
 body {
   margin: 0;
   padding: 0;
+  width: 100%;
+  position: relative;
 }
 
-*{
+* {
   box-sizing: border-box;
 }
 

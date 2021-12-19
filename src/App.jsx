@@ -27,7 +27,7 @@ function App() {
   };
 
   return (
-    <div className="relative">
+    <div className={styles.app}>
       {loading ? (
         <div className={styles.loading_wrapper}>
           <div

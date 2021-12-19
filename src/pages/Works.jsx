@@ -106,7 +106,7 @@ function Works({ data, school }) {
         />
       ) : null}
       <div className={styles.cotent_wrapper}>
-        <Nav />
+        <Nav school={school}/>
         <header className={styles.header}>
           <ul className={styles.breadcrumb}>
             <li>

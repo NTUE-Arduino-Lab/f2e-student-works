@@ -2,49 +2,59 @@
   z-index: 10;
   position: fixed;
   top: 40px;
-  right: 70px;
+  right: 53px;
+  width: 234px;
+  display: flex;
+  justify-content: center;
 }
 
 .nav ul {
-  width: max-content;
+  width: 180px;
   background-color: #202020;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 10px;
   justify-content: space-between;
-  padding: 3px;
+  align-items: center;
+  padding: 3px 13px;
   border-radius: 57px;
-  box-shadow: 0 0 0 1px white;
+  border: 1px solid white;
+  position: relative;
 }
 
 .nav li {
+  width: 100%;
   cursor: pointer;
-  width: max-content;
   height: max-content;
   list-style-type: none;
+  z-index: 0;
 }
 
 .nav a {
-  display: flex;
   height: 48px;
-  width: 85px;
   border-radius: 57px;
   font-family: "Libre Barcode 128 Text", cursive;
   font-size: 30px;
   color: white;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: max-content;
+  grid-gap: 2px;
   align-items: center;
   justify-content: center;
+  padding-top: 1px;
 }
 
 .nav .a_active {
-  background-color: white;
   color: #202020;
-  animation: a_active 0.5s;
 }
 
-@keyframes a_active {
-  0% {
-    background-color: #202020;
-  }
-  100% {
-    background-color: white;
-  }
+.a_active_box {
+  display: block;
+  position: absolute;
+  height: 48px;
+  width: 91.54px;
+  border-radius: 57px;
+  z-index: 0;
+  background-color: white;
 }

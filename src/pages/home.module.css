@@ -59,7 +59,7 @@
 .homeimg_text {
   background-image: url(../assets/images/home_text.png);
   background-repeat: no-repeat;
-  width: 129px;
+  width: 118px;
   height: 97px;
   transform: rotate(39.29deg);
   background-size: contain;
@@ -245,7 +245,7 @@
 @media screen and (max-width: 480px) {
   .homeimg_text {
     background-image: url(../assets/images/home_text_s.png);
-    width: 63px;
+    width: 73px;
     height: 60px;
     transform: rotate(39.29deg);
   }

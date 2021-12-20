@@ -1,7 +1,7 @@
 .nav {
   z-index: 10;
   position: fixed;
-  top: 40px;
+  top: 30px;
   right: 53px;
   width: 234px;
   display: flex;
@@ -63,5 +63,24 @@
   .nav {
     top: 40px;
     right: 0px;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .nav {
+    top: 50px;
+    right: 20px;
+    width: 160px;
+  }
+  .nav ul{
+    width: 130px;
+  }
+  .nav a {
+    font-size: 18px;
+    height: 32px;
+  }
+  .a_active_box {
+    height: 32px;
+    width: 61.93px;
   }
 }

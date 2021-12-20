@@ -78,13 +78,13 @@
   letter-spacing: 1px;
 }
 
-.skilllist a:hover {
+/* .skilllist a:hover {
   border: 1px solid #b7bcf7;
   background-color: #b7bcf7;
   color: white;
-}
+} */
 
-.skilllist .btn_skill_active {
+.skilllist .btn_skill_active,.skilllist a:active {
   border: 1px solid #6768ab;
   background-color: #6768ab;
   color: white;
@@ -115,11 +115,12 @@
 .btnlist a:nth-child(2) {
   background-color: #b7bcf7;
 }
-
-.btnlist a:hover,
 .btnlist a:active {
   background-color: #6768ab;
   color: white;
+}
+
+@media screen and (max-width:768px) {
 }
 
 @media screen and (max-width: 680px) {

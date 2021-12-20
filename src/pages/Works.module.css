@@ -29,6 +29,7 @@ header {
   display: grid;
   grid-template-columns: 1fr max-content 1fr;
   margin-bottom: 40px;
+  position: relative;
 }
 
 header h1 {
@@ -273,12 +274,15 @@ header a {
 
   header .title_wrapper {
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
   }
 }
 
 @media screen and (max-width: 680px) {
   header {
-    margin-top: 100px;
+    margin-top: 70px;
     grid-template-columns: auto;
     grid-template-rows: 1fr 1fr;
     height: 500px;

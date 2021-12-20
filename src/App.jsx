@@ -40,7 +40,7 @@ function App() {
             autoplay
             loop
             mode="normal"
-            src="https://assets3.lottiefiles.com/packages/lf20_ObshHL.json"
+            src="https://assets8.lottiefiles.com/packages/lf20_1whhjts9.json"
             style={{
               width: "320px",
               transition: "all 0.2s",

@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import styles from "./Nav.module.css";
 
-function Nav({school}) {
+function Nav({ school }) {
   return (
     <nav className={styles.nav}>
       <ul>
@@ -14,7 +14,11 @@ function Nav({school}) {
             className={({ isActive }) => (isActive ? styles.a_active : "")}
             to="/ntut"
           >
-            NTUT
+            {[..."NTUT"].map((ele, idx) => (
+              <span key={`text-${idx}-${ele}`}>
+                {ele}
+              </span>
+            ))}
           </NavLink>
         </li>
         <li>
@@ -22,7 +26,11 @@ function Nav({school}) {
             className={({ isActive }) => (isActive ? styles.a_active : "")}
             to="/ntue"
           >
-            NTUE
+            {[..."NTUE"].map((ele, idx) => (
+              <span key={`text-${idx}-${ele}`}>
+                {ele}
+              </span>
+            ))}
           </NavLink>
         </li>
       </ul>

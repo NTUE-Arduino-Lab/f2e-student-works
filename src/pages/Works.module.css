@@ -282,7 +282,7 @@ header a {
 
 @media screen and (max-width: 680px) {
   header {
-    margin-top: 100px;
+    margin-top: 70px;
     grid-template-columns: auto;
     grid-template-rows: 1fr 1fr;
     height: 500px;

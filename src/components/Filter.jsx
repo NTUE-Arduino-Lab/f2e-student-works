@@ -36,7 +36,7 @@ function Filter({ filterData, filterWorks, setShowFilter }) {
                   <a
                     key={`filter-${idx}`}
                     className={`${ele.selected ? styles.btn_skill_active : ""}`}
-                    onClick={() => _selectFilter(idx)}
+                    onClick={(e) => {e.target.className = `${!ele.selected ? styles.btn_skill_active : ""}`;_selectFilter(idx);}}
                   >
                     {ele.name}
                   </a>

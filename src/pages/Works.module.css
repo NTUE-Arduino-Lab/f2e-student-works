@@ -29,6 +29,7 @@ header {
   display: grid;
   grid-template-columns: 1fr max-content 1fr;
   margin-bottom: 40px;
+  position: relative;
 }
 
 header h1 {
@@ -273,6 +274,9 @@ header a {
 
   header .title_wrapper {
     position: absolute;
+    top: 50%;
+    left: 50%;
+    /* transform: translateX(-50%); */
   }
 }
 

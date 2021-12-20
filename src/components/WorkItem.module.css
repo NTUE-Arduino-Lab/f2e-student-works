@@ -15,6 +15,7 @@
 .link_website {
   display: block;
   width: 100%;
+  height: 270px;
   height: auto;
   grid-column-start: span 2;
   position: relative;
@@ -181,5 +182,9 @@
 
   .categroy {
     font-size: 12px;
+  }
+
+  .link_website {
+    height: 225px;
   }
 }

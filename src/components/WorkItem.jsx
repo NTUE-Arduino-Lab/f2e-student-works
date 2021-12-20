@@ -14,7 +14,7 @@ function WorkItem({ data, school, categroy }) {
     >
       <a href={data.websiteUrl} className={styles.link_website} target="_blank">
         <div className={styles.mask}></div>
-        {data.imgUrl.slice(-4) === ".png" || data.imgUrl.slice(-4) === ".jpg" ? (
+        {data.imgUrl.slice(-4) === ".png" || data.imgUrl.slice(-4) === ".jpg" || data.imgUrl.slice(-5) === ".jpeg"? (
           <img src={data.imgUrl} alt="" />
         ) : (
           <img src={img_404} alt="" />

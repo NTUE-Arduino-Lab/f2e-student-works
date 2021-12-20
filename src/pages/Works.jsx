@@ -4,8 +4,6 @@ import Nav from "../components/Nav";
 import Filter from "../components/Filter";
 import Select from "../components/Select";
 import styles from "./Works.module.css";
-import main_img_ntue from "../assets/images/ntue.png";
-import main_img_ntut from "../assets/images/ntut.png";
 import { Link, useLocation, useParams } from "react-router-dom";
 
 function Works({ data, school }) {
@@ -105,9 +103,9 @@ function Works({ data, school }) {
           setShowFilter={setshowFilter}
         />
       ) : null}
-      <div className={styles.cotent_wrapper}>
+      <div className={styles.content_wrapper}>
         <Nav school={school} />
-        <header className={styles.header}>
+        <header>
           <ul className={styles.breadcrumb}>
             <li>
               <Link to="/">首頁</Link>
@@ -117,11 +115,7 @@ function Works({ data, school }) {
           </ul>
           <div className={styles.title_wrapper}>
             <h1>{school === "ntue" ? "NTUEDTD" : "NTUTIXD"}</h1>
-            {school === "ntue" ? (
-              <img src={main_img_ntue} alt="" />
-            ) : (
-              <img src={main_img_ntut} alt="" />
-            )}
+            <div className={styles.title_bg}></div>
           </div>
           <ul className={styles.search_bar}>
             <li>

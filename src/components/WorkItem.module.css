@@ -14,8 +14,8 @@
 
 .link_website {
   display: block;
-  width: 360px;
-  height: 270px;
+  width: 100%;
+  height: auto;
   grid-column-start: span 2;
   position: relative;
 }
@@ -27,8 +27,8 @@
 
 .mask {
   background-color: rgba(103, 104, 171, 0.7);
-  width: 360px;
-  height: 270px;
+  width: 100%;
+  height: 100%;
   position: absolute;
   top: 0;
   left: 0;
@@ -159,6 +159,27 @@
   font-size: 14px;
   color: #c4c4c4;
   letter-spacing: 1px;
-  display: flex;
-  align-items: center;
+  text-align: right;
+}
+
+@media screen and (max-width: 480px) {
+  .workitem h3 {
+    font-size: 16px;
+  }
+
+  .skilllist span {
+    font-size: 12px;
+  }
+
+  .linklist svg{
+    width: 28px;
+  }
+
+  .namelist span {
+    font-size: 12px;
+  }
+
+  .categroy {
+    font-size: 12px;
+  }
 }

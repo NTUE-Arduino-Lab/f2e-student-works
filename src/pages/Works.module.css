@@ -7,16 +7,16 @@
 .works_ntue {
   background-color: #fff;
   color: #202020;
-  animation: opacity 0.32s cubic-bezier(0.42, 0, 0.58, 1)
+  animation: opacity 0.32s cubic-bezier(0.42, 0, 0.58, 1);
 }
 
 .works_ntut {
   background-color: #131313;
   color: white;
-  animation: opacity 0.2s cubic-bezier(0.42, 0, 0.58, 1)
+  animation: opacity 0.2s cubic-bezier(0.42, 0, 0.58, 1);
 }
 
-.cotent_wrapper {
+.content_wrapper {
   width: 100%;
   max-width: 1440px;
   padding: 0 120px;
@@ -24,18 +24,19 @@
   position: relative;
 }
 
-.header {
+header {
   height: 500px;
   display: grid;
   grid-template-columns: 1fr max-content 1fr;
   margin-bottom: 40px;
 }
 
-.header h1 {
+header h1 {
   font-family: "Elsie", cursive;
   font-size: 68px;
   letter-spacing: 12px;
   position: absolute;
+  text-align: center;
 }
 
 header ul {
@@ -54,10 +55,25 @@ header .title_wrapper {
   align-items: center;
 }
 
+.works_ntue .title_wrapper .title_bg {
+  background-image: url(../assets/images/ntue.png);
+  width: 403px;
+  height: 306px;
+  background-repeat: no-repeat;
+}
+
+.works_ntut .title_wrapper .title_bg {
+  background-image: url(../assets/images/ntut.png);
+  width: 403px;
+  height: 306px;
+  background-repeat: no-repeat;
+}
+
 header .breadcrumb {
   grid-template-columns: repeat(3, max-content);
   grid-gap: 17px;
   justify-self: start;
+  align-self: flex-end;
 }
 
 header li {
@@ -92,6 +108,7 @@ header a {
   grid-template-columns: repeat(2, 85px);
   justify-items: center;
   grid-gap: 5px;
+  align-self: flex-end;
 }
 
 .search_bar li {
@@ -236,4 +253,89 @@ header a {
 
 .works .pagelist .a_disable:hover {
   color: rgba(119, 119, 119, 0.533);
+}
+
+@media screen and (max-width: 1440px) {
+  .content_wrapper {
+    max-width: auto;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .content_wrapper {
+    padding: 0 60px;
+  }
+  header {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+  }
+
+  header .title_wrapper {
+    position: absolute;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  header {
+    margin-top: 100px;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr;
+    height: 500px;
+  }
+  header .title_wrapper {
+    margin-bottom: 40px;
+  }
+  header h1 {
+    width: 300px;
+    overflow-wrap: break-word;
+  }
+  header .breadcrumb {
+    align-self: start;
+  }
+  .search_bar {
+    justify-self: center;
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .content_wrapper {
+    padding: 0 40px;
+  }
+  header {
+    height: 350px;
+    margin-bottom: 24px;
+  }
+  header .title_wrapper {
+    margin-bottom: 20px;
+  }
+  header h1 {
+    font-size: 44px;
+    width: 200px;
+  }
+  header li {
+    font-size: 14px;
+  }
+  .works_ntue .title_wrapper .title_bg {
+    background-image: url(../assets/images/ntue_s.png);
+    width: 247px;
+    height: 196px;
+  }
+  
+  .works_ntut .title_wrapper .title_bg {
+    background-image: url(../assets/images/ntut_s.png);
+    width: 247px;
+    height: 196px;
+  }
+
+  .workslist {
+    grid-template-columns: repeat(auto-fill, 300px);
+    grid-column-gap: auto;
+    grid-row-gap: 60px;
+  }
+
+  .pagelist {
+    font-size: 14px;
+  }
 }

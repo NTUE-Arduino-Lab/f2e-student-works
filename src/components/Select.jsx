@@ -26,7 +26,6 @@ const optionStyles = {
   menu: (styles) => ({
     ...styles,
     borderRadius: "0",
-    transform: "translateX(-25%)",
   }),
   menuList: (styles) => ({
     ...styles,

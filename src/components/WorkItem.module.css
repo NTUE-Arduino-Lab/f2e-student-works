@@ -2,6 +2,8 @@
   font-family: "Noto Sans TC", sans-serif;
   display: grid;
   grid-template-columns: auto 120px;
+  grid-template-rows: 270px 62px max-content 0.5px 44px;
+  width: 360px;
 }
 
 .workitem_ntue {
@@ -16,7 +18,6 @@
   display: block;
   width: 100%;
   height: 270px;
-  height: auto;
   grid-column-start: span 2;
   position: relative;
 }
@@ -64,14 +65,15 @@
 }
 
 .skilllist {
-  display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: max-content;
-  grid-gap: 6px;
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
+  width: 100%;
 }
 
 .skilllist span {
+  margin-right:6px;
+  margin-bottom: 6px;
   padding: 5px 12px;
   background-color: #c4c4c4;
   border-radius: 50px;
@@ -88,8 +90,9 @@
   display: grid;
   grid-gap: 9px;
   grid-template-columns: repeat(2, max-content);
-  align-items: center;
+  align-items: self-end;
   justify-content: end;
+  margin-bottom: 5px;
 }
 
 .workitem_ntue .linklist a {
@@ -125,7 +128,7 @@
   grid-column-start: span 2;
   width: 100%;
   height: 0.5px;
-  margin: 11px 0 13px;
+  margin: 5px 0 13px;
 }
 
 .workitem_ntue .line {
@@ -161,6 +164,7 @@
   color: #c4c4c4;
   letter-spacing: 1px;
   text-align: right;
+  align-self: center;
 }
 
 @media screen and (max-width: 480px) {

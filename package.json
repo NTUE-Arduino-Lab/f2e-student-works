@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/f2e-student-works/",
+    "build": "vite build",
     "serve": "vite preview",
     "preview": "vite preview --port 8080"
   },

@@ -49,7 +49,7 @@ function App() {
           ></lottie-player>
         </div>
       ) : null}
-      <BrowserRouter>
+      <BrowserRouter basename="/f2e-student-works">
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="*" element={<Navigate replace to={"/"} />} />

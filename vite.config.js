@@ -5,9 +5,8 @@ import svgr from "@honkhonk/vite-plugin-svgr";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [svgr(), react()],
-  // base: "/",
+  base: "/f2e-student-works/",
   build: {
-    base: "/f2e-student-works/",
     chunkSizeWarningLimit: 2000,
   },
 });

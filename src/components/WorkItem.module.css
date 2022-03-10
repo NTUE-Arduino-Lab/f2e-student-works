@@ -167,6 +167,17 @@
   align-self: center;
 }
 
+@media screen and (max-width: 900px) {
+  .workitem {
+    width: 300px;
+    grid-template-rows: 225px 62px max-content 0.5px 44px;
+  }
+
+  .link_website {
+    height: 225px;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .workitem h3 {
     font-size: 16px;

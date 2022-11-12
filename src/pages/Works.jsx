@@ -43,14 +43,16 @@ function Works({ data, school }) {
       if (data[`${params.categroy}`] !== undefined) {
         //init filter
         data[`${params.categroy}`].forEach((work) => {
-          work.skill.forEach((skill) => {
-            if (
-              !newFilter.some((filter) => filter.name === skill) &&
-              skill !== ""
-            ) {
-              newFilter.push({ name: skill, selected: false });
-            }
-          });
+          if(work.skill != undefined) {
+            work.skill.forEach((skill) => {
+              if (
+                !newFilter.some((filter) => filter.name === skill) &&
+                skill !== ""
+              ) {
+                newFilter.push({ name: skill, selected: false });
+              }
+            });
+          }
         });
 
         newFilter.sort((a, b) => {

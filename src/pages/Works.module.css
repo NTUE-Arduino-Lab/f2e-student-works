@@ -165,9 +165,9 @@ header a {
   display: grid;
   grid-template-columns: repeat(auto-fill, 360px);
   width: 100%;
-  grid-column-gap: 60px;
+  grid-column-gap: 40px;
   grid-row-gap: 100px;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .error_message {

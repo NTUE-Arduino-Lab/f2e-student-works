@@ -14,7 +14,7 @@ function WorkItem({ data, school, categroy }) {
     >
       <a href={data.websiteUrl} className={styles.link_website} target="_blank">
         <div className={styles.mask}></div>
-        {data.imgUrl.slice(-4) === ".png" || data.imgUrl.slice(-4) === ".jpg" || data.imgUrl.slice(-5) === ".jpeg"? (
+        {data.imgUrl !== undefined && (data.imgUrl.slice(-4) === ".png" || data.imgUrl.slice(-4) === ".jpg" || data.imgUrl.slice(-5) === ".jpeg") ? (
           <img src={data.imgUrl} alt="" />
         ) : (
           <img src={img_404} alt="" />
@@ -22,7 +22,7 @@ function WorkItem({ data, school, categroy }) {
       </a>
       <h3>{data.workName}</h3>
       <div className={styles.skilllist}>
-        {data.skill.length > 0
+        {data.skill && data.skill.length > 0
           ? data.skill.map((ele) =>
               ele !== "" ? <span key={`skill-${ele}`}>{ele}</span> : null
             )

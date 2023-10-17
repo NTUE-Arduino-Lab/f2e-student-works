@@ -5,9 +5,10 @@ import Home from "./pages/Home";
 import Works from "./pages/Works";
 import * as LottiePlayer from "@lottiefiles/lottie-player";
 import styles from "./App.module.css";
+import projects from "./json/projects.json"
 
 function App() {
-  const [data, setdata] = useState([]);
+  const [data, setdata] = useState(projects);
   const [loading, setloading] = useState(true);
   const [readyLoadingEnd, setreadyLoadingEnd] = useState(false);
 
@@ -18,6 +19,7 @@ function App() {
   const getData = async () => {
     const result = await getSheetData();
     if (result !== undefined) {
+      // console.log('result', JSON.stringify(result));
       setdata(result);
       setreadyLoadingEnd(true);
       setTimeout(() => {
@@ -28,7 +30,7 @@ function App() {
 
   return (
     <div className={styles.app}>
-      {loading ? (
+      {!data ? (
         <div className={styles.loading_wrapper}>
           <div
             className={styles.mask}

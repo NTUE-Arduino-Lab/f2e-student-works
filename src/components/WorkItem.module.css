@@ -6,6 +6,24 @@
   width: 360px;
 }
 
+.workitem__title_ntue {
+  color: gray;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.8rem;
+  max-height: 1.8rem;
+  overflow: hidden;
+}
+
+.workitem__title_ntut {
+  color: #ede;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.8rem;
+  max-height: 1.8rem;
+  overflow: hidden;
+}
+
 .workitem_ntue {
   color: #202020;
 }
@@ -69,7 +87,9 @@
   flex-wrap: wrap;
   align-items: center;
   width: 100%;
+  color: black;
 }
+
 
 .skilllist span {
   margin-right:6px;

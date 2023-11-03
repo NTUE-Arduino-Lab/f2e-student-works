@@ -24,7 +24,9 @@ function WorkItem({ data, school, categroy }) {
           src={data.imgUrl} 
         />
       </a>
-      <h3>{data.workName}</h3>
+      <h3
+        className={school=="ntue" ? styles.workitem__title_ntue : styles.workitem__title_ntut}
+      >{data.workName}</h3>
       <div className={styles.skilllist}>
         {data.skill && data.skill.length > 0
           ? data.skill.map((ele) =>

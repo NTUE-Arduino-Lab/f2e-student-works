@@ -6,6 +6,11 @@ import img_404 from "../assets/images/404.png";
 function WorkItem({ data, school, categroy }) {
   const year_text = categroy.split("-");
 
+  const add404Img = (ev) => {
+    ev.target.src = img_404
+  }
+
+
   return (
     <div
       className={`${styles.workitem} ${
@@ -14,11 +19,10 @@ function WorkItem({ data, school, categroy }) {
     >
       <a href={data.websiteUrl} className={styles.link_website} target="_blank">
         <div className={styles.mask}></div>
-        {data.imgUrl !== undefined && (data.imgUrl.slice(-4) === ".png" || data.imgUrl.slice(-4) === ".jpg" || data.imgUrl.slice(-5) === ".jpeg") ? (
-          <img src={data.imgUrl} alt="" />
-        ) : (
-          <img src={img_404} alt="" />
-        )}
+        <img
+          onError={add404Img}
+          src={data.imgUrl} 
+        />
       </a>
       <h3>{data.workName}</h3>
       <div className={styles.skilllist}>

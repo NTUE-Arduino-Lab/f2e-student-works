@@ -39,14 +39,15 @@ function WorksList({ works, school, selected_categroy }) {
           <div className={styles.workslist}>
             {works
               .slice(0 + (page - 1) * 12, 12 + (page - 1) * 12)
-              .map((ele, idx) => (
+              .map((ele, idx) => {
+                if(ele.workName.length > 0) return (
                 <WorkItem
                   data={ele}
                   key={`work-${idx}`}
                   school={school}
                   categroy={selected_categroy}
                 />
-              ))}
+              )})}
           </div>
           <div className={styles.pagelist}>
             {_renderPageBtn()}

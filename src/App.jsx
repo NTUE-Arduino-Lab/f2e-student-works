@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { HashRouter as BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
+
 import { getSheetData } from "./api/index";
 import Home from "./pages/Home";
 import Works from "./pages/Works";
@@ -9,13 +10,21 @@ import styles from "./App.module.css";
 import projects from "./json/projects.json"
 
 function App() {
-  const [data, setdata] = useState(projects);
+  const [data, setdata] = useState(() => {
+    const initialState = localStorage.getItem('projects');
+    return initialState ? JSON.parse(initialState) : projects;
+  });
+
   const [loading, setloading] = useState(true);
   const [readyLoadingEnd, setreadyLoadingEnd] = useState(false);
 
   useEffect(() => {
     getData();
   }, []);
+
+  useEffect(() => {
+    localStorage.setItem('projects', JSON.stringify(data)); 
+  }, [data]);
 
   const getData = async () => {
     const result = await getSheetData();

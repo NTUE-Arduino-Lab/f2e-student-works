@@ -1469,22 +1469,211 @@
   "ntut": {
     "113-1": [
       {
-        "workName": "哇宅 Wanime",
-        "githubUrl": "",
-        "websiteUrl": "",
-        "pptUrl": "",
-        "imgUrl": "",
+        "workName": "FOUND ADO",
+        "githubUrl": "https://github.com/OuYukai/NTUT_F2E",
+        "websiteUrl": "https://ouyukai.github.io/NTUT_F2E/Midterm/index.html",
+        "pptUrl": "https://www.canva.com/design/DAGVnwdbRAc/vjOpkukaPuSW7PZam5lRaQ/edit?utm_content=DAGVnwdbRAc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+        "imgUrl": "https://imgur.com/a/6ZxUew8",
         "skill": ["HTML", "CSS"],
+        "name": ["歐昱楷", "黃鳳萱", "趙晴"]
+      },
+      {
+        "workName": "SPATIUM",
+        "githubUrl": "https://github.com/Yushan1221/NTUT-F2E-Guide-to-Art-Periods",
+        "websiteUrl": "https://yushan1221.github.io/NTUT-F2E-Guide-to-Art-Periods/",
+        "pptUrl": "https://www.canva.com/design/DAGVsdRrsUo/_0FpJo0FYTTnP6_e7r6uhw/edit",
+        "imgUrl": "https://i.imgur.com/1T6OYPD.jpeg",
+        "skill": ["HTML", "CSS", "JS"],
+        "name": ["張瑀珊", "曾得維"]
+      },
+      {
+        "workName": "cat matters.",
+        "githubUrl": "https://github.com/112840010Lala/Midterm_project",
+        "websiteUrl": "https://112840002.github.io/112840002.-112840019./",
+        "pptUrl": "https://www.canva.com/design/DAGVtSVNGKg/pqdWm1u32bVAzaKlND460Q/edit?utm_content=DAGVtSVNGKg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+        "imgUrl": "https://drive.google.com/file/d/1q-QZ7o1CUGIOX8GSBPZRluxYvl3SR5cA/view?usp=sharing",
+        "skill": ["HTML", "CSS"],
+        "name": ["劉虹玫", "林育嫻"]
+      },
+      {
+        "workName": "哇宅 Wanime",
+        "githubUrl": "https://github.com/bjtxian1915/Midterm-Assignment2.0",
+        "websiteUrl": "https://bjtxian1915.github.io/Midterm-Assignment2.0/",
+        "pptUrl": "https://www.figma.com/slides/84CZQJNxslUkT4SgpMfALb/%E7%B6%B2%E9%A0%81%E6%9C%9F%E4%B8%AD_%E5%93%87%E5%AE%85?node-id=1-25&t=jl8MgCHyvV2bedQo-1",
+        "imgUrl": "https://i.imgur.com/TgHOURu.png",
+        "skill": ["HTML", "CSS", "JS"],
         "name": ["林莉雯", "郭采玲"]
       },
       {
-        "workName": "Purr",
-        "githubUrl": "",
+        "workName": "糖果王國",
+        "githubUrl": "https://github.com/112840010Lala/Midterm_project",
+        "websiteUrl": "https://112840010lala.github.io/Midterm_project/",
+        "pptUrl": "https://www.canva.com/design/DAGVl_LzFpw/WqIOPeDGR1f1qheFtqMK1A/view?utm_content=DAGVl_LzFpw&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+        "imgUrl": "https://drive.google.com/file/d/1_hRqiaAElZzZTvWSMdcF8XxFzjKXwYc5/view?usp=sharing",
+        "skill": ["HTML", "CSS", "JS"],
+        "name": ["許劭容", "徐湘祺", "許尚筠"]
+      },
+      {
+        "workName": "Vintago",
+        "githubUrl": "https://github.com/112AC2024/Vintago/tree/main",
+        "websiteUrl": "https://112ac2024.github.io/Vintago/index.html",
+        "pptUrl": "https://www.canva.com/design/DAGVEP9NId0/Mr--coy5c0TfiVvmrLhDDw/edit",
+        "imgUrl": "https://i.imgur.com/TvB8Dk3.jpeg",
+        "skill": ["HTML", "CSS"],
+        "name": ["譚紫灩", "許敦富"]
+      },
+      {
+        "workName": "PortoPick",
+        "githubUrl": "https://github.com/susiguwu/PortoPick",
+        "websiteUrl": "https://susiguwu.github.io/PortoPick/",
+        "pptUrl": "https://www.canva.com/design/DAGU9xHj4Fk/FkD63EZT2H2KGTzQeD5Qdg/view?utm_content=DAGU9xHj4Fk&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+        "imgUrl": "https://imgur.com/a/y17mN6u.png",
+        "skill": ["HTML", "CSS", "JS"],
+        "name": ["林庭萱", "李佳珊"]
+      },
+      {
+        "workName": "WeCAKE",
+        "githubUrl": "https://github.com/YNT191/wecake.git",
         "websiteUrl": "",
+        "pptUrl": "https://www.canva.com/design/DAGVNvZI1-0/T-KrMdTtx9yXT-3A3BgQzw/edit?utm_content=DAGVNvZI1-0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+        "imgUrl": "Wecake封面圖",
+        "skill": ["HTML", "CSS"],
+        "name": ["左祐寧", "吳懷恩", "莊佳晨"]
+      },
+      {
+        "workName": "Souhait 願望",
+        "githubUrl": "https://github.com/Yin0414/Souhait",
+        "websiteUrl": "https://yin0414.github.io/Souhait/",
+        "pptUrl": "https://www.canva.com/design/DAGVrWA9bso/vKdWzrdj7mJHIS3IxvkQew/edit?utm_content=DAGVrWA9bso&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+        "imgUrl": "https://i.imgur.com/67mt9N4.jpeg",
+        "skill": ["HTML", "CSS"],
+        "name": ["許凱茵", "劉玉蝶", "林芷伊"]
+      },
+      {
+        "workName": "神棍線上占卜網",
+        "githubUrl": "https://github.com/Angelpan726/jianpoo.git",
+        "websiteUrl": "https://angelpan726.github.io/jianpoo/",
+        "pptUrl": "https://drive.google.com/file/d/1GfnNQl1KgsEPSWDhEa2akooClTn6VmlD",
+        "imgUrl": "https://drive.google.com/file/d/1rgr_15Y-lX8Wr_rclZph0q116I6plpTA",
+        "skill": ["HTML", "CSS"],
+        "name": ["潘綵婕", "盧宣穎"]
+      },
+      {
+        "workName": "嗶嗶啵啵",
+        "githubUrl": "https://github.com/yoyoforfor/WEB_ternalwork",
+        "websiteUrl": "https://yoyoforfor.github.io/WEB_ternalwork/",
+        "pptUrl": "嗶嗶啵啵.pdf",
+        "imgUrl": "https://imgur.com/undefined",
+        "skill": ["HTML", "CSS"],
+        "name": ["史詠誼", "宋妤婕"]
+      },
+      {
+        "workName": "孤獨搖滾！",
+        "githubUrl": "https://github.com/Cathylly00/kessoku_band_website",
+        "websiteUrl": "https://cathylly00.github.io/kessoku_band_website/",
+        "pptUrl": "https://www.canva.com/design/DAGVhmN0tfA/RKQnWDq5SlnHPXD0PJzaHQ/edit",
+        "imgUrl": "",
+        "skill": ["HTML", "CSS", "AOS"],
+        "name": ["李亮兒", "胡嫚元"]
+      },
+      {
+        "workName": "All Pass Pastry",
+        "githubUrl": "https://github.com/chouleon/All-Pass-Pastry",
+        "websiteUrl": "https://chouleon.github.io/All-Pass-Pastry/",
+        "pptUrl": "https://www.canva.com/design/DAGVrtEVS30/DeYZ1gf4-AprrQMOAOQ0CA/edit?utm_content=DAGVrtEVS30&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+        "imgUrl": "https://drive.google.com/file/d/1fKBIHdM-cVZTdeSjpyMRQfE6k_eKUd9g/view?usp=drivesdk",
+        "skill": ["HTML", "CSS"],
+        "name": ["周誠亮", "劉冠廷", "彭璿安"]
+      },
+      {
+        "workName": "WANTED",
+        "githubUrl": "https://github.com/112ac2007/WANTED",
+        "websiteUrl": "https://112ac2007.github.io/WANTED/",
+        "pptUrl": "WANTED.pdf",
+        "imgUrl": "https://imgur.com/a/mNg8gUD",
+        "skill": ["HTML", "CSS", "JS"],
+        "name": ["梁祐綸", "田宏翔"]
+      },
+      {
+        "workName": "Alboom",
+        "githubUrl": "https://github.com/HSBroJiaJun/AlbumWebsite",
+        "websiteUrl": "https://hsbrojiajun.github.io/AlbumWebsite/",
+        "pptUrl": "https://www.canva.com/design/DAGVhKC7J1s/PC6RcW_SymFnKNr9y-_nPw/edit?utm_content=DAGVhKC7J1s&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+        "imgUrl": "https://i.imgur.com/i14vA8Z.jpeg",
+        "skill": ["HTML", "CSS", "JS"],
+        "name": ["莊家鈞", "林莉婕"]
+      },
+      {
+        "workName": "哥布林大百科",
+        "githubUrl": "https://github.com/Roger488762463/-8",
+        "websiteUrl": "https://roger488762463.github.io/-8/",
+        "pptUrl": "https://www.canva.com/design/DAGVroUx7_c/3J3QXmN-uuAiY0F_FRLyyg/edit?utm_content=DAGVroUx7_c&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+        "imgUrl": "https://i.imgur.com/2zFltYh.jpeg",
+        "skill": ["HTML", "CSS"],
+        "name": ["張宸瑞", "應威德"]
+      },
+      {
+        "workName": "＞＆＜",
+        "githubUrl": "https://github.com/yoyo870/yoyo1106-2",
+        "websiteUrl": "https://yoyo870.github.io/yoyo1106-2/",
+        "pptUrl": "https://www.canva.com/design/DAGVhH-dj14/igiKCzzXd-2_9iEOi_gREQ/edit?utm_content=DAGVhH-dj14&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+        "imgUrl": "https://imgur.com/a/CroyOvv",
+        "skill": ["HTML", "CSS"],
+        "name": ["張合承", "蕭靖"]
+      },
+      {
+        "workName": "Purr",
+        "githubUrl": "程式碼連結",
+        "websiteUrl": " 網站連結",
         "pptUrl": "期中報告",
         "imgUrl": "封面圖",
-        "skill": ["HTML", "CSS", "JS"],
+        "skill": ["HTML", "CSS", "JS", "网页模板"],
         "name": ["陳敏捷", "張峰碩"]
+      },
+      {
+        "workName": " ",
+        "githubUrl": "https://github.com/Moffei1226/MidtermWebDesign",
+        "websiteUrl": "https://moffei1226.github.io/MidtermWebDesign/",
+        "pptUrl": "https://www.canva.com/design/DAGVsNhLQGs/Qv3J7i405vEIub_KMeR03w/edit?fbclid=IwY2xjawGYjlFleHRuA2FlbQIxMAABHdLZm8nFHqGxbwMY15h0RQ13lYecaB4Nj6fbUgsGbfhQERWnG8cWQY93Pg_aem_rZj7Zjmv_97PE5hpW0dmiQ",
+        "imgUrl": "https://imgur.com/qaD6U7E",
+        "skill": ["HTML", "CSS"],
+        "name": ["謝沛辰", "蘇柏文"]
+      },
+      {
+        "workName": "塵境",
+        "githubUrl": "https://github.com/RafterYi/RafterYi.github.io/tree/main/midterm%20web%20assignment",
+        "websiteUrl": "https://rafteryi.github.io/midterm%20web%20assignment/",
+        "pptUrl": "https://www.canva.com/design/DAGVcCvXFKA/vCy7ej6N2kZq6DKOBGEhEQ/view?utm_content=DAGVcCvXFKA&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+        "imgUrl": "https://drive.google.com/file/d/15CdqetjEoH0lkrmcxTfXL7t2uQcS_J0p/view?usp=share_link",
+        "skill": ["HTML", "CSS"],
+        "name": ["紀欣岑", "黃稜榕"]
+      },
+      {
+        "workName": "OLIVE",
+        "githubUrl": "https://github.com/iamhereforhomework/olive-pasta.git",
+        "websiteUrl": "https://iamhereforhomework.github.io/olive-pasta/",
+        "pptUrl": "https://www.figma.com/deck/taVivNllIb2WJgCx8uVUdo/OLIVE%E7%B0%A1%E5%A0%B1?node-id=1-335&t=T0EtFbNgDVU8CBoN-1",
+        "imgUrl": "https://i.imgur.com/RrD3Msn.jpeg",
+        "skill": ["HTML", "CSS"],
+        "name": ["林晏伶", "劉亞縉"]
+      },
+      {
+        "workName": "FCBarce introduce",
+        "githubUrl": "https://github.com/XDRayLl/midtremWeb",
+        "websiteUrl": "https://xdrayll.github.io/midtremWeb/\r",
+        "pptUrl": "https://drive.google.com/file/d/1YIvEJPdVd1ZHmkjRmQbArDKCdEZfQqrE/view?usp=drive_link",
+        "imgUrl": "https://imgur.com/a/gip2Npm",
+        "skill": ["HTML", "CSS", "JS"],
+        "name": ["李程睿", "呂福財"]
+      },
+      {
+        "workName": "MATCHA",
+        "githubUrl": "Matcha - A powerful tool sets",
+        "websiteUrl": "Matcha - A powerful tool sets",
+        "pptUrl": "https://www.canva.com/design/DAGVwSljl-g/9COAqB6GI0WPxH73k8ARgA/edit?utm_content=DAGVwSljl-g&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+        "imgUrl": "https://i.imgur.com/7Ednp42.png",
+        "skill": ["HTML", "CSS", "JS"],
+        "name": ["魏直彦", "吳宇翔"]
       }
     ],
     "112-2": [

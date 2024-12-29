@@ -1,12 +1,241 @@
 {
   "ntue": {
+    "113-2": [
+      {
+        "workName": "Jay Chou",
+        "githubUrl": "https://github.com/hyuuzy/Final__",
+        "websiteUrl": "https://hyuuzy.github.io/finalweb/Jay_web/",
+        "pptUrl": "https://www.canva.com/design/DAGabEclbhM/-9Ud0bspwLlct8PD-FAkUQ/view?utm_content=DAGabEclbhM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=he508b47e78",
+        "imgUrl": "https://imgur.com/5gUJbAC.png",
+        "skill": ["HTML", "CSS", "JS"],
+        "name": ["謝芷瑀", "蘇竑翔"]
+      },
+      {
+        "workName": "食物拉霸機",
+        "githubUrl": "https://github.com/s111219041/FoodMachine",
+        "websiteUrl": "https://s111219041.github.io/FoodMachine/#",
+        "pptUrl": "https://www.canva.com/design/DAGaZja_pPw/nse67std5fopSk7mWup4yw/edit",
+        "imgUrl": "https://i.imgur.com/7sdRhiL.png",
+        "skill": ["JS", "Firbase", "CSS"],
+        "name": ["鍾政勳", "何毅豪"]
+      },
+      {
+        "workName": "腦筋急轉彎",
+        "githubUrl": "https://github.com/angel0325/insideout2",
+        "websiteUrl": "https://angel0325.github.io/insideout2/",
+        "pptUrl": "https://www.canva.com/design/DAGaAPINVbA/tjp6RFnAGP14tReu-lHeaw/view?utm_content=DAGaAPINVbA&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
+        "imgUrl": "https://i.imgur.com/LsoRiXL.png",
+        "skill": ["html", "css", "js"],
+        "name": ["楊子儀", "吳昱嫻"]
+      },
+      {
+        "workName": "眠貓咖啡屋",
+        "githubUrl": "https://github.com/Amane1116/Cafe_2024",
+        "websiteUrl": "https://amane1116.github.io/Cafe_2024/index.html",
+        "pptUrl": "https://www.canva.com/design/DAGaCQ-S0vY/Bq-MfkcO4SDY4hpyla42OA/edit?utm_content=DAGaCQ-S0vY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+        "imgUrl": "https://i.imgur.com/Pz6B0L6.png",
+        "skill": ["Html", "CSS", "JS", "RWD", "jQury", "Gsap"],
+        "name": ["陳星璇", "余盈蓁"]
+      },
+      {
+        "workName": "台灣無家者送愛整合平台",
+        "githubUrl": "https://github.com/chao-tiatde/fontend_midterm",
+        "websiteUrl": "https://chao-tiatde.github.io/fontend_midterm/",
+        "pptUrl": "https://www.canva.com/design/DAGVKBoah3Y/vFTrzEKyxQwdVecaLx71CQ/view?utm_content=DAGVKBoah3Y&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h5099d37107",
+        "imgUrl": "https://i.imgur.com/JdMDmJU.png",
+        "skill": [
+          "HTML",
+          "CSS",
+          "JS",
+          "RWD",
+          "Firebase",
+          "Leaflet",
+          "AG Grid",
+          "ApexCharts",
+          "GitHub",
+          "Git"
+        ],
+        "name": ["吳函蓁", "趙翊如"]
+      },
+      {
+        "workName": "天台的幽靈",
+        "githubUrl": "https://github.com/butterflyshi/RWD_1227",
+        "websiteUrl": "https://butterflyshi.github.io/RWD_1227/",
+        "pptUrl": "https://www.canva.com/design/DAGacGkbUH8/vaxFauzq0aK_UJpY-utxpg/edit?utm_content=DAGacGkbUH8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+        "imgUrl": "https://imgur.com/FvXzgjK.png",
+        "skill": ["HTML", "CSS", "JS"],
+        "name": ["施亞蝶", "劉恩伶"]
+      },
+      {
+        "workName": "國北數位籃球",
+        "githubUrl": "https://github.com/ben233n/bk9",
+        "websiteUrl": "https://ben233n.github.io/bk9/",
+        "pptUrl": "https://www.canva.com/design/DAGaaC8uJnM/x0umk3yV7fKeRwuWeJ8e-w/edit",
+        "imgUrl": "https://i.imgur.com/APdLobb.png",
+        "skill": [
+          "JS",
+          "Firebase",
+          "CSS",
+          "RWD",
+          "HTML",
+          "GSAP",
+          "JQuery",
+          "canvas confetti"
+        ],
+        "name": ["謝宏碩", "何建銘"]
+      },
+      {
+        "workName": "AFA",
+        "githubUrl": "https://github.com/fanyuuuuhan/AFA",
+        "websiteUrl": "https://fanyuuuuhan.github.io/AFA/",
+        "pptUrl": "https://www.canva.com/design/DAGaY5WuzVs/x_zGdspBSMkaJUaNuz9Ymw/view?utm_content=DAGaY5WuzVs&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h43110ef670",
+        "imgUrl": "https://i.imgur.com/NhGy3Vg.png",
+        "skill": ["HTML", "CSS", "JS", "RWD", "Swiper", "JQuery"],
+        "name": ["呂致緯", "范羽涵"]
+      },
+      {
+        "workName": "Terry'S and Sky's Profile ",
+        "githubUrl": "https://github.com/yapcheng/stself-profile",
+        "websiteUrl": "https://yapcheng.github.io/stself-profile/index.html",
+        "pptUrl": "https://www.canva.com/design/DAGU8ZAIe-0/N3HXLIm94S63F2eDk9NFlQ/edit?utm_content=DAGU8ZAIe-0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+        "imgUrl": "",
+        "skill": ["Grid", "CSSC", "Java", "JQuery", "HTML", "CSS", "RWD"],
+        "name": ["陳羿文", "楊耀丞"]
+      },
+      {
+        "workName": "McDonald's website",
+        "githubUrl": "https://github.com/avacadokkk/McDONs",
+        "websiteUrl": "https://avacadokkk.github.io/McDONs/",
+        "pptUrl": "https://www.canva.com/design/DAGaSV-8ci4/uJ8-kth3VW4aAoY6M_AUHg/view?utm_content=DAGaSV-8ci4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=heeeae342e9",
+        "imgUrl": "https://i.imgur.com/glnFKoQ.png",
+        "skill": ["HTML", "CSS", "Java"],
+        "name": ["紀沛羽", "張育平"]
+      },
+      {
+        "workName": "Who's Ocean",
+        "githubUrl": "https://github.com/linfeng-931/F2E-Web",
+        "websiteUrl": "https://linfeng-931.github.io/F2E-Web/",
+        "pptUrl": "https://www.canva.com/design/DAGaSFTdAcI/1tkidj4NgMq9SUqvuwixBQ/edit?utm_content=DAGaSFTdAcI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+        "imgUrl": "https://i.imgur.com/9O4uMby.jpeg",
+        "skill": [
+          "JS",
+          "Firebase",
+          "CSS",
+          "RWD",
+          "HTML",
+          "GSAP",
+          "JQuery",
+          "Tailwind"
+        ],
+        "name": ["黃湘涵", "蔡宜蓁"]
+      },
+      {
+        "workName": "Le Rêve Salon",
+        "githubUrl": "",
+        "websiteUrl": "",
+        "pptUrl": "",
+        "imgUrl": "",
+        "skill": [""],
+        "name": ["張佩均", "金聖家"]
+      },
+      {
+        "workName": "殘酷二選一",
+        "githubUrl": "LiamKingh-TNT/DTD_Web_Midterm",
+        "websiteUrl": "殘酷二選一",
+        "pptUrl": "https://www.canva.com/design/DAGaa4vyua0/bQFE9ApmA-okiaVaIJa4-w/edit?utm_content=DAGaa4vyua0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+        "imgUrl": "https://i.imgur.com/P9bT015.png",
+        "skill": ["HTML", "CSS", "GSAP", "JS", "Firebase", "RWD"],
+        "name": ["金聖家", "陳奕承"]
+      },
+      {
+        "workName": "Pronk Zone",
+        "githubUrl": "LittleDonkey1414/113-1-F2E-PronkZone",
+        "websiteUrl": "Pronk Zone",
+        "pptUrl": "Pronk Zone生活小物企業網站.pptx - Google Slides",
+        "imgUrl": "https://i.imgur.com/yD88xwV.png",
+        "skill": ["HTML", "CSS", "JavaScript", "Firebase"],
+        "name": ["黃証揚", "徐睿謙"]
+      },
+      {
+        "workName": "K-pop MUSIC CHART ",
+        "githubUrl": "https://github.com/yunob01/f2e-final",
+        "websiteUrl": "https://yunob01.github.io/f2e-final--/",
+        "pptUrl": "https://www.canva.com/design/DAGU-RxhyLg/SJ8doo52DvLYudVoBdbRzw/edit?utm_content=DAGU-RxhyLg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+        "imgUrl": "https://i.imgur.com/dHljcmS.png",
+        "skill": ["HTML", "CSS", "JS", "RWD"],
+        "name": ["陳芝榕", "彭巧雲"]
+      },
+      {
+        "workName": "sleeper build",
+        "githubUrl": "https://github.com/zhuangzongji/web-main",
+        "websiteUrl": "https://fuckthehomework-tw.github.io/sleerbuild2test/",
+        "pptUrl": "https://www.canva.com/design/DAGVB1OEDLs/wsUleVNC6y07wBqpE_u-yA/edit?utm_content=DAGVB1OEDLs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+        "imgUrl": "",
+        "skill": ["css,java,html"],
+        "name": ["張耀民", "莊宗季"]
+      },
+      {
+        "workName": "斯文豪氏大蝸牛官方帳號",
+        "githubUrl": "https://github.com/meowmeowchun/NesiohelixSwinhoeiDemo",
+        "websiteUrl": "https://meowmeowchun.github.io/NesiohelixSwinhoeiDemo/",
+        "pptUrl": "https://www.canva.com/design/DAGaZN1WhEg/V0oiBeA9mEgwmMGgntQN6g/edit?utm_content=DAGaZN1WhEg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+        "imgUrl": "https://drive.google.com/file/d/1tW6tO424BmroRZky7fswLbgklVFLxzss/view?usp=sharing",
+        "skill": ["HTML", "CSS", "JS", "howler.js", "figma"],
+        "name": ["廖郡廷", "陳羿嘉"]
+      },
+      {
+        "workName": "一個羽毛球網站",
+        "githubUrl": "https://github.com/wayne0520/A-badminton",
+        "websiteUrl": "https://wayne0520.github.io/A-badminton/",
+        "pptUrl": "https://www.canva.com/design/DAGachG0op8/pC4_oL2KO-zWfuPPHRMeVA/edit",
+        "imgUrl": "https://i.imgur.com/TBCSQjT.jpeg",
+        "skill": ["Html", "Css", "Js"],
+        "name": ["陳暉尹"]
+      },
+      {
+        "workName": "ocean threads",
+        "githubUrl": "https://github.com/yayayuuuuu/11301gy.github.io",
+        "websiteUrl": "https://yayayuuuuu.github.io/11301gy.github.io/",
+        "pptUrl": "https://www.canva.com/design/DAGaZjegsLI/EQyPDyGoR8sNrayraKgmDQ/view?utm_content=DAGaZjegsLI&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h3242b9de61",
+        "imgUrl": "https://i.imgur.com/uRHFmfm.jpeg",
+        "skill": ["Html", "CSS", "JS", "RWD", "jQury", "Gsap"],
+        "name": ["廖翊君", "葉晏妤"]
+      },
+      {
+        "workName": "Frost",
+        "githubUrl": "https://github.com/jieyiy/Frost",
+        "websiteUrl": "https://jieyiy.github.io/Frost//Frost/index.html",
+        "pptUrl": "https://www.canva.com/design/DAGaWL2ANqc/8YZKJsj-xWBU58wLhDO13A/edit",
+        "imgUrl": "https://i.imgur.com/BUvoBFa.png",
+        "skill": ["HTML", "CSS", "JS", "RWD"],
+        "name": ["蕭郁穎", "陳婕宜"]
+      },
+      {
+        "workName": "宵声ーよいせい",
+        "githubUrl": "https://github.com/baimao0331/F2E_mid",
+        "websiteUrl": " https://baimao0331.github.io/F2E_mid/",
+        "pptUrl": "https://www.canva.com/design/DAGaTft74ZE/5RJS9GpiZaCMKnMhEjpULg/view?utm_content=DAGaTft74ZE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hf202a2d406",
+        "imgUrl": "https://i.imgur.com/LeptCIY.png",
+        "skill": ["JS", "Firebase", "RWD"],
+        "name": ["劉德翔", "鄭亞筑"]
+      },
+      {
+        "workName": "棠吉訶徳",
+        "githubUrl": "https://github.com/LiyandPeter/Private_Website",
+        "websiteUrl": " https://liyandpeter.github.io/Private_Website/",
+        "pptUrl": "https://www.canva.com/design/DAGUyKByg_E/PE06jfwhbBQjRxRW2vMkOA/view?utm_content=DAGUyKByg_E&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h772c08086a",
+        "imgUrl": "https://i.imgur.com/8k0e9fo.png",
+        "skill": ["HTML", "CSS", "JavaScript"],
+        "name": ["張景棠", "黎彥德"]
+      }
+    ],
     "113-1": [
       {
         "workName": "西西里優嫻咖啡",
         "githubUrl": "https://github.com/Claaara18/cafe",
         "websiteUrl": "https://claaara18.github.io/cafe/",
         "pptUrl": "https://www.canva.com/design/DAGU8fvnwXw/oWIt5ZQanNG8cYktBU_ktg/edit?utm_content=DAGU8fvnwXw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
-        "imgUrl": "https://i.imgur.com/9YrfwXG.png",
+        "imgUrl": "https://imgur.com/9YrfwXG.png",
         "skill": ["HTML", "CSS"],
         "name": ["楊子儀", "吳昱嫻"]
       },
@@ -43,7 +272,7 @@
         "websiteUrl": "https://chao-tiatde.github.io/fontend_midterm/",
         "pptUrl": "https://www.canva.com/design/DAGVKBoah3Y/na-unOyyaeMnFbcRYlq-Jw/edit?utm_content=DAGVKBoah3Y&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
         "imgUrl": "https://i.imgur.com/JdMDmJU.png",
-        "skill": ["https:", "", "imgur.com", "a", "Pp1EDv8"],
+        "skill": ["HTML", "CSS", "JS", "GitHub", "Git"],
         "name": ["吳函蓁", "趙翊如"]
       },
       {
@@ -1467,6 +1696,116 @@
     ]
   },
   "ntut": {
+    "113-2": [
+      {
+        "workName": "Wanime哇宅",
+        "githubUrl": "",
+        "websiteUrl": "",
+        "pptUrl": "",
+        "imgUrl": "",
+        "skill": [""],
+        "name": ["林莉雯", "郭采玲"]
+      },
+      {
+        "workName": "FOUND ADO",
+        "githubUrl": "",
+        "websiteUrl": "",
+        "pptUrl": "",
+        "imgUrl": "",
+        "skill": [""],
+        "name": ["歐昱楷", "黃鳳萱", "趙晴"]
+      },
+      {
+        "workName": "Louvre",
+        "githubUrl": "",
+        "websiteUrl": "",
+        "pptUrl": "",
+        "imgUrl": "",
+        "skill": [""],
+        "name": ["譚紫灧", "許敦富"]
+      },
+      {
+        "workName": "PortoPick",
+        "githubUrl": "",
+        "websiteUrl": "",
+        "pptUrl": "",
+        "imgUrl": "",
+        "skill": [""],
+        "name": ["林庭萱", "李佳珊"]
+      },
+      {
+        "workName": "Souhait 願望",
+        "githubUrl": "",
+        "websiteUrl": "",
+        "pptUrl": "",
+        "imgUrl": "",
+        "skill": [""],
+        "name": ["許凱茵", "林芷伊", "劉玉蝶"]
+      },
+      {
+        "workName": "haikyuu!!!",
+        "githubUrl": "",
+        "websiteUrl": "",
+        "pptUrl": "",
+        "imgUrl": "",
+        "skill": [""],
+        "name": ["謝沛辰", "蘇柏文"]
+      },
+      {
+        "workName": "OLIVE",
+        "githubUrl": "",
+        "websiteUrl": "",
+        "pptUrl": "",
+        "imgUrl": "",
+        "skill": [""],
+        "name": ["林晏伶", "劉亞縉"]
+      },
+      {
+        "workName": "異聞調查局weirdo ",
+        "githubUrl": "",
+        "websiteUrl": "",
+        "pptUrl": "",
+        "imgUrl": "",
+        "skill": [""],
+        "name": ["彭璿安", "劉冠廷", "周誠亮"]
+      },
+      {
+        "workName": "WANTED",
+        "githubUrl": "",
+        "websiteUrl": "",
+        "pptUrl": "",
+        "imgUrl": "",
+        "skill": [""],
+        "name": ["梁祐綸", "田宏翔"]
+      },
+      {
+        "workName": "MATCHA",
+        "githubUrl": "",
+        "websiteUrl": "",
+        "pptUrl": "",
+        "imgUrl": "",
+        "skill": [""],
+        "name": ["魏直彦", "吳宇翔"]
+      },
+      {
+        "workName": "曾阿罵手工坊",
+        "githubUrl": "",
+        "websiteUrl": "",
+        "pptUrl": "",
+        "imgUrl": "",
+        "skill": ["HTML", "CSS"],
+        "name": ["潘綵婕", "盧宣穎"]
+      },
+      {
+        "workName": "PURR",
+        "githubUrl": "",
+        "websiteUrl": "",
+        "pptUrl": "",
+        "imgUrl": "https://imgur.com/C0YFsqw",
+        "skill": ["JS", "CSS", "HTML"],
+        "name": ["張峰碩", "陳敏捷"]
+      }
+    ],
     "113-1": [
       {
         "workName": "FOUND ADO",
@@ -1509,7 +1848,7 @@
         "githubUrl": "https://github.com/112840010Lala/Midterm_project",
         "websiteUrl": "https://112840010lala.github.io/Midterm_project/",
         "pptUrl": "https://www.canva.com/design/DAGVl_LzFpw/WqIOPeDGR1f1qheFtqMK1A/view?utm_content=DAGVl_LzFpw&utm_campaign=designshare&utm_medium=link&utm_source=editor",
-        "imgUrl": "https://drive.google.com/file/d/1_hRqiaAElZzZTvWSMdcF8XxFzjKXwYc5/view?usp=sharing",
+        "imgUrl": "https://i.imgur.com/lI6apY0.jpeg",
         "skill": ["HTML", "CSS", "JS"],
         "name": ["許劭容", "徐湘祺", "許尚筠"]
       },

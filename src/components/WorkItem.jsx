@@ -6,10 +6,18 @@ import img_404 from "../assets/images/404.png";
 function WorkItem({ data, school, categroy }) {
   const year_text = categroy.split("-");
 
-  const add404Img = (ev) => {
-    ev.target.src = img_404
-  }
+  // 檢查 imgUrl 是否有效（存在且不為空字符串）
+  const isValidImgUrl = data.imgUrl && data.imgUrl.trim() !== '';
+  
+  // 如果 imgUrl 無效，直接使用 404 圖片；否則使用原始 imgUrl
+  const imgSrc = isValidImgUrl ? data.imgUrl : img_404;
 
+  const add404Img = (ev) => {
+    // 防止無限循環：如果已經是 404 圖片，就不再設置
+    if (ev.target.src !== img_404) {
+      ev.target.src = img_404;
+    }
+  }
 
   return (
     <div
@@ -21,7 +29,8 @@ function WorkItem({ data, school, categroy }) {
         <div className={styles.mask}></div>
         <img
           onError={add404Img}
-          src={data.imgUrl} 
+          src={imgSrc}
+          alt={data.workName || "專題圖片"}
         />
       </a>
       <h3
